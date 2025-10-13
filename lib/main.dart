@@ -1,4 +1,7 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_sec_10/floating_action_button.dart';
+import 'package:flutter_sec_10/nested_row_column.dart';
+import 'package:flutter_sec_10/row_column.dart';
 
 import 'appbar_demo.dart';
 
@@ -32,7 +35,7 @@ class MyApp extends StatelessWidget {
         // tested with just a hot reload.
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
       ),
-      home: AppBarDemo(),
+      home: NestedRowColumnDemo(),
     );
   }
 }
