@@ -1,5 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_sec_10/assets_images.dart';
+import 'package:flutter_sec_10/bottombar_demo.dart';
+import 'package:flutter_sec_10/curved_bottombar_demo.dart';
 import 'package:flutter_sec_10/floating_action_button.dart';
 import 'package:flutter_sec_10/listview_demo.dart';
 import 'package:flutter_sec_10/login_form.dart';
@@ -42,7 +44,7 @@ class MyApp extends StatelessWidget {
         // tested with just a hot reload.
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
       ),
-      home: PageviewDemo(),
+      home: CurvedBottombarDemo(),
     );
   }
 }
