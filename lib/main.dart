@@ -11,6 +11,7 @@ import 'package:flutter_sec_10/network_image.dart';
 import 'package:flutter_sec_10/pageview_demo.dart';
 import 'package:flutter_sec_10/row_column.dart';
 import 'package:flutter_sec_10/single_selection.dart';
+import 'package:flutter_sec_10/tab_bar_demo.dart';
 
 import 'appbar_demo.dart';
 
@@ -44,7 +45,7 @@ class MyApp extends StatelessWidget {
         // tested with just a hot reload.
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
       ),
-      home: CurvedBottombarDemo(),
+      home: TabBarDemo(),
     );
   }
 }
