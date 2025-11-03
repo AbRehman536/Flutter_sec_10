@@ -3,6 +3,9 @@ import 'package:flutter_sec_10/assets_images.dart';
 import 'package:flutter_sec_10/bottombar_demo.dart';
 import 'package:flutter_sec_10/curved_bottombar_demo.dart';
 import 'package:flutter_sec_10/floating_action_button.dart';
+import 'package:flutter_sec_10/gridview_basic.dart';
+import 'package:flutter_sec_10/gridview_builder.dart';
+import 'package:flutter_sec_10/gridview_staggered.dart';
 import 'package:flutter_sec_10/listview_demo.dart';
 import 'package:flutter_sec_10/login_form.dart';
 import 'package:flutter_sec_10/multiple_selection.dart';
@@ -45,7 +48,7 @@ class MyApp extends StatelessWidget {
         // tested with just a hot reload.
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
       ),
-      home: TabBarDemo(),
+      home: GridviewStaggered(),
     );
   }
 }
