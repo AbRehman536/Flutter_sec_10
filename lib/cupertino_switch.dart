@@ -38,20 +38,25 @@ class _CupertinoSwitchDemoState extends State<CupertinoSwitchDemo> {
           ),
         ),
 
-        DropdownButton<String>(
-          hint: Text("Select Item"),
-            value: selectedValue,
-            items: items.map((item){
-              return DropdownMenuItem<String>(
-                  value: item,
-                  child: Text(item));
-            }).toList(),
-          onChanged: (String? value) {
-            setState(() {
-              selectedValue = value;
-            });
-          },
-            )
+        SizedBox(
+          width: 300,
+          child: DropdownButton<String>(
+            borderRadius: BorderRadius.circular(20),
+            dropdownColor: Colors.grey,
+            hint: Text("Select Item"),
+              value: selectedValue,
+              items: items.map((item){
+                return DropdownMenuItem<String>(
+                    value: item,
+                    child: Text(item));
+              }).toList(),
+            onChanged: (String? value) {
+              setState(() {
+                selectedValue = value;
+              });
+            },
+              ),
+        )
       ],),),
     );
   }

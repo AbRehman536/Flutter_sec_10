@@ -19,6 +19,7 @@ import 'package:flutter_sec_10/single_selection.dart';
 import 'package:flutter_sec_10/tab_bar_demo.dart';
 
 import 'appbar_demo.dart';
+import 'date_time_picker.dart';
 import 'drawer_menu.dart';
 
 void main() {
@@ -52,7 +53,7 @@ class MyApp extends StatelessWidget {
         // tested with just a hot reload.
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
       ),
-      home: CupertinoSwitchDemo(),
+      home: DateTimePickerDemo(),
     );
   }
 }
