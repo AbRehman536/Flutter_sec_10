@@ -19,12 +19,14 @@ import 'package:flutter_sec_10/providers/screen_1.dart';
 import 'package:flutter_sec_10/providers/user_provider.dart';
 import 'package:flutter_sec_10/row_column.dart';
 import 'package:flutter_sec_10/single_selection.dart';
+import 'package:flutter_sec_10/slider.dart';
 import 'package:flutter_sec_10/tab_bar_demo.dart';
 import 'package:provider/provider.dart';
 
 import 'appbar_demo.dart';
 import 'date_time_picker.dart';
 import 'drawer_menu.dart';
+import 'otp.dart';
 
 void main() {
   runApp(MultiProvider(providers: [
@@ -60,7 +62,7 @@ class MyApp extends StatelessWidget {
         // tested with just a hot reload.
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
       ),
-      home: Screen1(),
+      home: SliderDemo(),
     );
   }
 }
